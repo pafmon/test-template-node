@@ -1,6 +1,6 @@
 {
   "name": "teste-template-node",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "My Project Template for Node JS developments",
   "homepage": "https://github.com/pafmon/test-template-node",
   "main": "index.js",
