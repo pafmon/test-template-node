@@ -71,3 +71,5 @@ function _myPromiseFunction(param1, param2) {
     });
 
 }
+
+console.log("System up and ready");

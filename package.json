@@ -1,8 +1,8 @@
 {
-  "name": "project-template-nodejs",
+  "name": "teste-template-node",
   "version": "0.0.0",
-  "description": "Project Template for Node JS developments",
-  "homepage": "https://github.com/isa-group/project-template-nodejs",
+  "description": "My Project Template for Node JS developments",
+  "homepage": "https://github.com/pafmon/test-template-node",
   "main": "index.js",
   "dependencies": {
     "bluebird": "^3.4.7",
@@ -34,16 +34,13 @@
     "project"
   ],
   "author": {
-    "name": "ISA group",
+    "name": "pafmon",
     "web": "http://www.isa.us.es/"
   },
   "license": "GPL-3.0+",
   "repository": {
     "type": "git",
-    "url": "git://github.com/isa-group/project-template-nodejs.git",
-    "github": "http://github.com/isa-group/project-template-nodejs"
-  },
-  "docker": {
-    "url": "https://hub.docker.com/r/darteaga/testing-grunt/"
+    "url": "git://github.com/pafmon/test-template-node.git",
+    "github": "https://github.com/pafmon/test-template-node"
   }
 }
