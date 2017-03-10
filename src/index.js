@@ -1,8 +1,8 @@
 /*!
-project-template-nodejs 0.0.0, built on: 2017-02-10
-Copyright (C) 2017 ISA group
+teste-template-node 1.0.0, built on: 2017-03-10
+Copyright (C) 2017 pafmon
 http://www.isa.us.es/
-https://github.com/isa-group/project-template-nodejs
+https://github.com/pafmon/test-template-node
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -72,4 +72,4 @@ function _myPromiseFunction(param1, param2) {
 
 }
 
-console.log("System up and ready");
+console.log("System up and ready !!!");
