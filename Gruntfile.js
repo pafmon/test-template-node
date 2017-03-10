@@ -109,7 +109,7 @@ module.exports = function (grunt) {
                 afterRelease: [], // IS NOT READY YET
                 updateVars: ['pkg'], //NOT CHANGE
                 github: {
-                    repo: "isa-group/project-template-nodejs",
+                    repo: "pafmon/test-template-node",
                     accessTokenVar: "GITHUB_ACCESS_TOKEN", //SET ENVIRONMENT VARIABLE WITH THIS NAME
                     usernameVar: "GITHUB_USERNAME" //SET ENVIRONMENT VARIABLE WITH THIS NAME
                 }
@@ -159,7 +159,7 @@ module.exports = function (grunt) {
     grunt.registerTask('test', ['jshint', 'mochaTest']);
 
     //BUILD TASK
-    grunt.registerTask('build', ['test', 'usebanner', 'dockerize']);
+    grunt.registerTask('build', ['test', 'usebanner']);
 
     //DEVELOPMENT TASK
     grunt.registerTask('dev', ['watch']);
